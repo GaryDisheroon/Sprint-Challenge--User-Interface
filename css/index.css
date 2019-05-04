@@ -144,3 +144,68 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.Navparent{
+    display: flex;  
+    flex-direction: row;
+    margin-left: 550px; 
+    justify-content: left;
+    margin-top: 30px;
+}
+
+
+.Jumboimg{
+    display: flex;
+    justify-content: center;
+    margin-left: 550px;
+    margin-bottom: 20px;
+}
+.Navigation a {
+    margin-left: 60px;
+   margin-top: 10px;
+    box-sizing: border-box;
+    color: black;
+    font-family: Rubik;
+    text-decoration: none;
+    
+}
+.Jumboabout{
+    display: flex;
+    justify-content: center;
+    margin-left: 550px;
+    margin-bottom: 20px;
+}
+
+.parent .child-item{
+    display: flex;
+    flex-direction: column;
+    border-bottom: dotted black 2px;
+    width: 400px;
+    margin: 15px;
+    padding-bottom: 20px;
+}
+
+button{
+    position: relative;
+    width: 160px;
+    margin-left: 130px;
+    border-radius: 150px;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 870px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.AboutHead{
+    border-bottom: dotted black 2px;
+    padding-bottom: 20px;
+}
+.Aboutfoot{
+    padding-bottom: 30px;
+}
